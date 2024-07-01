@@ -3,12 +3,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
-    font-size: 2em;
-    margin-top: 20px;
+    margin: 0;
+    font-size: 2.5em;
 }
 
 .container {
@@ -16,14 +23,37 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .section {
-    border: 1px solid black;
+    border: 1px solid #333;
     padding: 20px;
     margin: 10px;
     box-sizing: border-box;
     position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff8c00;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    border: 1px solid #333;
+}
+
+.section p {
+    margin-top: 40px;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
 /* Desktop Styles */
@@ -55,7 +85,7 @@ h2 {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: #f0f0f0;
+    background-color: #ff8c00;
     padding: 5px;
     border: 1px solid black;
 }
