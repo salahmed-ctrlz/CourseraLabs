@@ -51,9 +51,9 @@ h1 {
 }
 
 .section p {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.5;
     color: #333;
 }
 
