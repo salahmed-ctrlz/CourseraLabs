@@ -33,7 +33,7 @@ h1 {
     margin: 10px;
     box-sizing: border-box;
     position: relative;
-    background-color: #fff;
+    background-color: #fff; /* White background for sections */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -42,7 +42,7 @@ h1 {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: #ff8c00;
+    background-color: #ff8c00; /* Orange background for section titles */
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
@@ -53,7 +53,7 @@ h1 {
 .section p {
     font-size: 1em;
     line-height: 1.5;
-    color: #333;
+    color: #333; /* Dark gray text color for paragraphs */
 }
 
 /* Desktop Styles */
