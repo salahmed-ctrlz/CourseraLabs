@@ -28,12 +28,12 @@ h1 {
 }
 
 .section {
-    border: 1px solid #333;
+    border: 1px solid #ccc;
     padding: 20px;
     margin: 10px;
     box-sizing: border-box;
     position: relative;
-    background-color: #fff;
+    background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -47,13 +47,14 @@ h1 {
     border-radius: 5px;
     color: white;
     font-size: 1.2em;
-    border: 1px solid #333;
+    border: 1px solid #cc6600;
 }
 
 .section p {
     margin-top: 40px;
     font-size: 1em;
     line-height: 1.5em;
+    color: #333;
 }
 
 /* Desktop Styles */
@@ -79,13 +80,4 @@ h1 {
     .section {
         width: 100%;
     }
-}
-
-h2 {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: #ff8c00;
-    padding: 5px;
-    border: 1px solid black;
 }
